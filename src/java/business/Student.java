@@ -4,7 +4,10 @@ public class Student {
     private String studentName;
 
     public Student() {
+        System.out.println("Heloo");
     }
+
+    
     //This is fist
     public Student(int studentID, String studentName) {
         this.studentID = studentID;
