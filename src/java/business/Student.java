@@ -25,5 +25,9 @@ public class Student {
     public void setStudentName(String studentName) {
         this.studentName = studentName;
     }
-   
+   //to String
+    @Override
+    public String toString() {
+        return "xxxxxxxxxxxxxxxx";
+    }
 }
