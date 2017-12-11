@@ -1,0 +1,244 @@
+/*! responsive style !*/
+
+/* box resize*/
+@media (min-width:768px) {
+	.boxwrap {
+		width: 768px;
+	}
+	.container {
+		width: 750px;
+	}
+	.newsletter .block-title {
+		float: none;
+		margin: 0 20px 20px 0;
+	}
+	.social-icon {
+		text-align: right;
+	}
+	.carna_services.carna_service_14 .single_carna_service {
+		margin-bottom: 30px;
+	}
+	.header_area .header_top_left .navbar .top_nav ul li a {
+	  	padding: 0 8px;
+	}
+	.products-details.style_2 .preview_image {
+	  	padding-bottom: 15px;
+	}
+	.our-brand .caroufredsel_wrapper {
+	  	min-height: 90px;
+	}
+	.footer-info.style_2 .col-xs-12:nth-child(1),
+	.footer-info.style_2 .col-xs-12:nth-child(2) {
+		margin-bottom: 30px;
+	}
+}
+@media (min-width:992px) {
+	.boxwrap {
+		width: 992px;
+	}
+	.container {
+		width: 970px;
+	}
+	.header_area.style_3 .header_top_left .navbar .top_nav ul li a {
+		padding: 0 9px;
+	}
+	.footer-item .block-content span {
+		margin: 8px 12px 15px 0;
+	}
+}
+@media (min-width:1200px) {
+	.boxwrap {
+		width: 1200px;
+	}
+	.container {
+		width: 1170px;
+	}
+}
+
+/* box resize close */
+@media (min-width:1200px) {
+}
+@media(min-width:1024px) and (max-width:1199px) {
+	.header_area .main_menu_area .main_menu_inner .navbar .main_nav ul li a {
+		font-size: 14px !important;
+		padding: 20px 15px;
+	}
+}
+@media (min-width:992px) and (max-width:1199px) {
+	.nav li a {
+		font-size: 13px;
+		padding: 6px 10px;
+	}
+	.button, button {
+		padding: 8px 10px;
+	}
+	.thum-image .control-right {
+		right: -10px;
+	}
+	.thum-image .control-left {
+		left: -10px;
+	}
+	.products-description .qty {
+		margin-bottom: 15px;
+	}
+
+	/*home slider */
+	#sequence {
+		height: 490px;
+	}
+	.flat-image img {
+		max-width: 380px;
+	}
+	.caption1, .caption2, .caption3, .caption4, .caption5 {
+		width: 60%;
+	}
+}
+@media (min-width:768px) and (max-width:991px) {
+	.logo {
+		width: 100%;
+	}
+	.nav > li > a {
+		font-size: 12px;
+		padding: 5px 7.7px;
+	}
+	.option {
+		margin-top: 20px;
+	}
+	.navbar-collapse {
+		padding-top: 5px;
+	}
+
+	/*home slider */
+	#sequence {
+		height: 400px;
+	}
+	.caption1, .caption2, .caption3, .caption4, .caption5 {
+		width: 60%;
+	}
+	.flat-image img {
+		max-width: 300px;
+	}
+	.flat-caption .suphead {
+		font-size: 18px;
+	}
+	.flat-caption h1 {
+		font-size: 32px;
+		line-height: 35px;
+	}
+	.flat-caption h2 {
+		font-size: 16px;
+		line-height: 18px;
+	}
+	.flat-caption p {
+		font-size: 12px;
+		max-width: 400px;
+	}
+	.caption2 {
+		top: 21%;
+	}
+	.caption3 {
+		top: 32%;
+	}
+	.caption4 {
+		top: 47%;
+	}
+	.header_area .main_menu_area .main_menu_inner .navbar .main_nav ul li a {
+		border: 0 none;
+		border-radius: 0;
+		font-size: 12px !important;
+		margin: 0;
+		padding: 15px 6px;
+		text-shadow: none;
+		text-transform: uppercase;
+	}
+	.quantity-box {
+	  	width: 60px;
+	}
+	.button, button {
+	  	padding: 10px 16px;
+	}
+}
+@media (max-width:991px) {
+	.hom-slider .flexslider .slides img {
+		max-height: 450px;
+	}
+	.slide-caption {
+		margin-top: 60px;
+	}
+	.slide-caption .suphead {
+		font-size: 18px;
+	}
+	.slide-caption h1 {
+		font-size: 24px;
+		line-height: 24px;
+	}
+	.slide-caption p {
+		font-size: 12px;
+	}
+	.flex-control-nav {
+		top: 320px;
+	}
+	.footer-logo {
+		padding-top: 0;
+	}
+	.products-description .qty {
+		margin-bottom: 15px;
+	}
+	.slide-item .slide-title {
+	  	bottom: calc(50% + -10px);
+	}
+	.init-slider .content-inner h2 {
+		font-size: 30px;
+	}
+	.init-slider .content-inner p {
+		display: none;
+	}
+}
+@media (max-width:767px) {
+	.navbar-collapse {
+		margin: 0;
+		padding: 0;
+		float: none;
+	}
+	.navbar-nav {
+		margin: 0;
+		padding: 0;
+	}
+	.nav > li {
+		display: block;
+		position: relative;
+		float: none;
+	}
+	.navbar-nav .open .dropdown-menu {
+		background-color: rgba(255, 255, 255, 0.9);
+		padding: 10px 20px;
+	}
+	.header_top {
+		float: right;
+		position: relative;
+		width: 70%;
+	}
+	.option {
+		margin-top: 15px;
+	}
+	.navbar-header {
+		position: relative;
+	}
+	.navbar-toggle {
+		background-color: rgba(255, 255, 255, 0.1);
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		margin-top: 15px;
+	}
+	.flex-control-nav {
+		top: 280px;
+	}
+	.caroufredsel_wrapper .row {
+		padding-right: 1px;
+	}
+	.products-description {
+		float: left;
+		width: 100%;
+		margin: 15px 0 15px 0;
+	}
+}

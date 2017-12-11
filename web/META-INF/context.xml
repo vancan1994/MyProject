@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/PetsDaNang">
+     <Resource name="jdbc/PetsDaNang" auth="Container"
+                driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+                url="jdbc:sqlserver://localhost:1433;databaseName=PetsDaNang;characterEncoding=UTF-8"
+                username="sa" password="123456"
+                maxActive="100" maxIde="30" maxWait="1000"
+                logAbandoned="True" removeAbandoned="true"
+                removeAbandonedTimeout="60" type="javax.sql.DataSource"
+    />
+</Context>

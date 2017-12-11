@@ -1,0 +1,42 @@
+.slide-holder{
+    width: auto;
+margin:0 auto;
+}
+.slide-stage{
+position: absolute;
+}
+.slide-image { /*Độ rộng của .slide-image có thể được thay đổi theo nhu cầu, ảnh hưởng đến độ rộng chung của slideshow*/
+float:left;
+height:425px;
+}
+.slide-image img{
+width:95%;
+margin:0 auto;
+}
+.slide-pager{
+position:relative;
+}
+.slide-control-prev {
+position: absolute;
+text-align: center;
+width: 25px;
+height: 60px;
+background: orange;
+line-height: 60px;
+color: #fff;
+cursor: pointer;
+top: 35px;
+left: -30px;
+}
+.slide-control-next{
+position: absolute;
+text-align: center;
+width: 25px;
+height: 60px;
+background: orange;
+line-height: 60px;
+color: #fff;
+cursor: pointer;
+right: -60px;
+top: 50px;
+}

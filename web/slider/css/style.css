@@ -1,0 +1,8 @@
+.slide-holder{
+margin:0 auto;
+}
+.slide-container { /*slide-container là khối bao mà slide-stage có thể "trượt" bên trong */
+width: 100%;
+overflow: hidden;
+position:relative;
+}

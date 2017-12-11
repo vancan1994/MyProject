@@ -1,0 +1,165 @@
+html{           
+    margin: 0;
+    padding: 0;
+    height: 3429px;
+    width:100%;
+    zoom:100%;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#menu{
+     margin: 0px;
+     padding:0px;
+}
+header{ 
+    background: #2C2C2C;
+/*    height:56px;*/
+    width:100%;
+}
+#menu{
+    float:left;
+}
+.ul_menu{
+    
+    margin: 0px;
+    padding:0px;
+    height:56px;
+    width:100%;
+    list-style: none;
+    margin-left: 150px;
+    
+}
+.li_menu,.li_menu_trangchu{
+    margin: 0px;
+    padding:0px;
+    float:left;
+    padding: 19px;
+    position: relative;
+    
+}
+.ul_menu .li_menu:hover{
+    background:#F7544A;
+    transition-duration: 0.2s;
+    
+}
+.a_menu,.a_sub_menu{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px !important;
+    color: #f5f5f5;
+    text-decoration: none;
+    
+}
+.li_menu_trangchu{
+    background:#F7544A;
+}
+.ul_sub_menu{
+    display: none;
+    position: absolute;
+    width: 100px;
+    background: #2C2C2C;
+    margin-top: 19px;
+    list-style: none;
+    margin-left:-20px;
+    padding:20px;
+    
+}
+.li_menu:hover >.ul_sub_menu{
+    display:block;
+}
+.sub_li{
+    margin-bottom: 20px;
+    
+}
+.a_sub_menu:hover{
+    color: #F7544A;
+
+    
+}
+#timkiem{
+    
+    width: 209px;
+    height: 27px;
+    float:left;
+    border-radius: 4px;
+    margin-top: 15px;
+    background: black;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.button_search{
+    background-image: url("../images/search.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:0;
+    width: 25px;
+    height: 18px;
+   
+}
+.button_search{
+   outline-width: 0;
+}
+.text_search{
+    margin: 0px;
+    padding: 0px;
+    width: 180px;
+    height: 25px;
+    font-size: 15px;
+    background: black;
+    border:0;
+    color:white;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+}
+.text_search:focus{
+    outline-width: 0;
+                
+}
+.cart_icon{
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    
+    margin-top: 10px;
+}
+.cart_icon{
+    position: relative;
+    margin-left: 20px;
+}
+
+/*----------slider------------*/
+#slider{
+    height: 530px;
+    width: 100%;
+    background-image: url("../images/giaodienSlise.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#footer_slider{
+    height:150px;
+    background: black;
+    opacity: 0.8;
+    filter: alpha(opacity=100);
+}
+#slidershow{
+    height:380px;
+    
+}
+.img_pet{
+    height: 120px;
+    width: 350px;
+    margin-left: 10px;
+    margin-top: 15px;
+    opacity: 1.0;
+    
+}
+footer_slider{
+   margin-left: 30px; 
+}
